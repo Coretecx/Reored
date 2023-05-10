@@ -22,7 +22,7 @@ public class CopperHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -1f;
+				return -0.5f;
 			}
 
 			public int getLevel() {

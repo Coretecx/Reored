@@ -30,12 +30,12 @@ public class CopperPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
-		}, 1, -3f, new Item.Properties().tab(ReoredModTabs.TAB_REORED_TOOLS));
+		}, 1, -2.8f, new Item.Properties().tab(ReoredModTabs.TAB_REORED_TOOLS));
 	}
 }
