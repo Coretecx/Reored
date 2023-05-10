@@ -20,9 +20,9 @@ public class ReoredModTabs {
 
 			@Override
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 		TAB_REORED_ARMORY = new CreativeModeTab("tabreored_armory") {
 			@Override
 			public ItemStack makeIcon() {
@@ -31,8 +31,8 @@ public class ReoredModTabs {
 
 			@Override
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 	}
 }
