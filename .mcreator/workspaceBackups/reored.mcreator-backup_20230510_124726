@@ -1,0 +1,110 @@
+{
+  "mod_elements": [
+    {
+      "name": "OakCap",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_cap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reored/recipes/oak_cap.json"
+        ]
+      }
+    },
+    {
+      "name": "OakChest",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reored/recipes/oak_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "OakLegs",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reored/recipes/oak_legs.json"
+        ]
+      }
+    },
+    {
+      "name": "OakBoots",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/reored/recipes/oak_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "OakArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/grawmpy/reored/item/OakArmorItem.java",
+          "src/main/resources/assets/reored/models/item/oak_armor_leggings.json",
+          "src/main/resources/assets/reored/models/item/oak_armor_helmet.json",
+          "src/main/resources/assets/reored/models/item/oak_armor_chestplate.json",
+          "src/main/resources/assets/reored/models/item/oak_armor_boots.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.reored.oak_armor_helmet": "Wood Armor Helmet",
+      "item.reored.oak_armor_leggings": "Wood Armor Leggings",
+      "item.reored.oak_armor_boots": "Wood Armor Boots",
+      "item.reored.oak_armor_chestplate": "Wood Armor Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Copper",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "reored",
+    "modName": "Re-Ored",
+    "version": "1.0.0",
+    "author": "Samarth, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.grawmpy.reored",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,18 @@
+{
+  "group": "reored",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "O O",
+    "O O"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "reored:oak_armor_leggings",
+    "count": 1
+  }
+}

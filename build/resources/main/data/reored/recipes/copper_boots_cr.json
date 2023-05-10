@@ -1,0 +1,17 @@
+{
+  "group": "reored",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "reored:copper_armor_boots",
+    "count": 1
+  }
+}
