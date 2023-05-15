@@ -31,6 +31,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.grawmpy.reored.init.ReoredModTabs;
 import net.grawmpy.reored.init.ReoredModItems;
+import net.grawmpy.reored.init.ReoredModFeatures;
+import net.grawmpy.reored.init.ReoredModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,7 +51,10 @@ public class ReoredMod {
 		ReoredModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		ReoredModBlocks.REGISTRY.register(bus);
 		ReoredModItems.REGISTRY.register(bus);
+
+		ReoredModFeatures.REGISTRY.register(bus);
 
 	}
 

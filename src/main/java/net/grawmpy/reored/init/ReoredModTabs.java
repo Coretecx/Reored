@@ -10,6 +10,7 @@ import net.minecraft.world.item.CreativeModeTab;
 public class ReoredModTabs {
 	public static CreativeModeTab TAB_REORED_TOOLS;
 	public static CreativeModeTab TAB_REORED_ARMORY;
+	public static CreativeModeTab TAB_REORED_BLOCKS;
 
 	public static void load() {
 		TAB_REORED_TOOLS = new CreativeModeTab("tabreored_tools") {
@@ -27,6 +28,17 @@ public class ReoredModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(ReoredModItems.COPPER_SWORD.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_REORED_BLOCKS = new CreativeModeTab("tabreored_blocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(ReoredModBlocks.SILVER_ORE.get());
 			}
 
 			@Override
