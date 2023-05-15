@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "reored:silver_ore"
+    "reored:silver_ore",
+    "reored:deepslate_silver_ore"
   ]
 }

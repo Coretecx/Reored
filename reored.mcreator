@@ -339,6 +339,25 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "DeepslateSilverOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/reored/models/block/deepslate_silver_ore.json",
+          "src/main/resources/data/reored/forge/biome_modifier/deepslate_silver_ore_biome_modifier.json",
+          "src/main/resources/assets/reored/models/item/deepslate_silver_ore.json",
+          "src/main/java/net/grawmpy/reored/block/DeepslateSilverOreBlock.java",
+          "src/main/java/net/grawmpy/reored/world/features/ores/DeepslateSilverOreFeature.java",
+          "src/main/resources/assets/reored/blockstates/deepslate_silver_ore.json"
+        ]
+      },
+      "path": "~/Silver"
     }
   ],
   "variable_elements": [],
@@ -348,6 +367,7 @@
       "item.reored.copper_sword": "Copper Sword",
       "item.reored.oak_armor_leggings": "Wooden Leggings",
       "item.reored.copper_armor_leggings": "Copper Leggings",
+      "block.reored.deepslate_silver_ore": "Deepslate Silver Ore",
       "item.reored.copper_pickaxe": "Copper Pickaxe",
       "item.reored.copper_armor_boots": "Copper Boots",
       "item.reored.oak_armor_chestplate": "Wooden Chestplate",

@@ -16,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class SilverOreBlock extends Block {
-	public SilverOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
+public class DeepslateSilverOreBlock extends Block {
+	public DeepslateSilverOreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4.5f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override
