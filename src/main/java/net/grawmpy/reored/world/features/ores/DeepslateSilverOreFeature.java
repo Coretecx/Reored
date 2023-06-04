@@ -34,9 +34,9 @@ public class DeepslateSilverOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new DeepslateSilverOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("reored:deepslate_silver_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), ReoredModBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState())), 7));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), ReoredModBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState())), 10));
 		PLACED_FEATURE = PlacementUtils.register("reored:deepslate_silver_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(192), VerticalAnchor.absolute(254)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

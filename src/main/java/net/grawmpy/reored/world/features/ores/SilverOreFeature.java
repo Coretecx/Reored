@@ -34,9 +34,9 @@ public class SilverOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SilverOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("reored:silver_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), ReoredModBlocks.SILVER_ORE.get().defaultBlockState())), 3));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), ReoredModBlocks.SILVER_ORE.get().defaultBlockState())), 8));
 		PLACED_FEATURE = PlacementUtils.register("reored:silver_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(128), VerticalAnchor.absolute(192)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(64), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
